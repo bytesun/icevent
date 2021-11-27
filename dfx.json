@@ -1,19 +1,19 @@
 {
   "canisters": {
-    "dfinity_reactJs_reactRouter_babel": {
-      "main": "src/dfinity_reactJs_reactRouter_babel/main.mo",
+    "icevent": {
+      "main": "src/icevent/main.mo",
       "type": "motoko"
     },
-    "dfinity_reactJs_reactRouter_babel_assets": {
+    "icevent_assets": {
       "dependencies": [
-        "dfinity_reactJs_reactRouter_babel"
+        "icevent"
       ],
       "frontend": {
-        "entrypoint": "src/dfinity_reactJs_reactRouter_babel_assets/src/index.html"
+        "entrypoint": "src/icevent_assets/src/index.html"
       },
       "source": [
-        "src/dfinity_reactJs_reactRouter_babel_assets/assets",
-        "dist/dfinity_reactJs_reactRouter_babel_assets/"
+        "src/icevent_assets/assets",
+        "dist/icevent_assets/"
       ],
       "type": "assets"
     }
@@ -24,7 +24,7 @@
       "packtool": ""
     }
   },
-  "dfx": "0.8.4",
+  "dfx": "0.8.3",
   "networks": {
     "local": {
       "bind": "127.0.0.1:8000",
